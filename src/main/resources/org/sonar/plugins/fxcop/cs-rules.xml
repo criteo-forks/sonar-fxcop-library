@@ -450,7 +450,7 @@ Generally, both of the prior declarations should be avoided so that the type arg
 
   <rule key="DoNotNestGenericTypesInMemberSignatures">
     <configKey>CA1006</configKey>
-    <priority>CRITICAL</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1006: Do not nest generic types in member signatures]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -6172,7 +6172,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="IdentifiersShouldNotHaveIncorrectSuffix">
     <configKey>CA1711</configKey>
-    <priority>CRITICAL</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1711: Identifiers should not have incorrect suffix]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
