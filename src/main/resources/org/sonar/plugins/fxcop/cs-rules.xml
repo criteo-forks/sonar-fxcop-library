@@ -119,7 +119,7 @@ Generally, both of the prior declarations should be avoided so that the type arg
 
   <rule key="TypesThatOwnDisposableFieldsShouldBeDisposable">
     <configKey>CA1001</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1001: Types that own disposable fields should be disposable]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -322,7 +322,7 @@ Generally, both of the prior declarations should be avoided so that the type arg
 
   <rule key="GenericMethodsShouldProvideTypeParameter">
     <configKey>CA1004</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1004: Generic methods should provide type parameter]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -450,7 +450,7 @@ Generally, both of the prior declarations should be avoided so that the type arg
 
   <rule key="DoNotNestGenericTypesInMemberSignatures">
     <configKey>CA1006</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1006: Do not nest generic types in member signatures]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -514,7 +514,7 @@ Generally, both of the prior declarations should be avoided so that the type arg
 
   <rule key="UseGenericsWhereAppropriate">
     <configKey>CA1007</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1007: Use generics where appropriate]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -578,7 +578,7 @@ Generally, both of the prior declarations should be avoided so that the type arg
 
   <rule key="EnumsShouldHaveZeroValue">
     <configKey>CA1008</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1008: Enums should have zero value]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1084,7 +1084,7 @@ namespace Samples
 
   <rule key="AbstractTypesShouldNotHaveConstructors">
     <configKey>CA1012</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1012: Abstract types should not have constructors]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1232,7 +1232,7 @@ return left.Equals(right);
 
   <rule key="MarkAssembliesWithComVisible">
     <configKey>CA1017</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1017: Mark assemblies with ComVisibleAttribute]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1258,7 +1258,7 @@ return left.Equals(right);
 
   <rule key="MarkAttributesWithAttributeUsage">
     <configKey>CA1018</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1018: Mark attributes with AttributeUsageAttribute]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1494,7 +1494,7 @@ public string MyOtherProperty
 
   <rule key="AvoidNamespacesWithFewTypes">
     <configKey>CA1020</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1020: Avoid namespaces with few types]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1535,7 +1535,7 @@ public string MyOtherProperty
 
   <rule key="AvoidOutParameters">
     <configKey>CA1021</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1021: Avoid out parameters]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1664,7 +1664,7 @@ namespace Samples
 
   <rule key="IndexersShouldNotBeMultidimensional">
     <configKey>CA1023</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1023: Indexers should not be multidimensional]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1703,7 +1703,7 @@ namespace Samples
 
   <rule key="UsePropertiesWhereAppropriate">
     <configKey>CA1024</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1024: Use properties where appropriate]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1814,7 +1814,7 @@ namespace Microsoft.Samples
 
   <rule key="ReplaceRepetitiveArgumentsWithParamsArray">
     <configKey>CA1025</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1025: Replace repetitive arguments with params array]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1875,7 +1875,7 @@ namespace Microsoft.Samples
 
   <rule key="MarkEnumsWithFlags">
     <configKey>CA1027</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1027: Mark enums with FlagsAttribute]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -1910,7 +1910,7 @@ namespace Microsoft.Samples
 
   <rule key="EnumStorageShouldBeInt32">
     <configKey>CA1028</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1028: Enum storage should be Int32]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -2064,7 +2064,7 @@ namespace Samples
 
   <rule key="UseEventsWhereAppropriate">
     <configKey>CA1030</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1030: Use events where appropriate]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -2105,7 +2105,7 @@ namespace Samples
 
   <rule key="DoNotCatchGeneralExceptionTypes">
     <configKey>CA1031</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1031: Do not catch general exception types]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -2462,7 +2462,7 @@ namespace Samples
 
   <rule key="AvoidEmptyInterfaces">
     <configKey>CA1040</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1040: Avoid empty interfaces]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -2583,7 +2583,7 @@ namespace Samples
 
   <rule key="DoNotPassTypesByReference">
     <configKey>CA1045</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1045: Do not pass types by reference]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -2636,7 +2636,7 @@ namespace Samples
 
   <rule key="DoNotOverloadOperatorEqualsOnReferenceTypes">
     <configKey>CA1046</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1046: Do not overload operator equals on reference types]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -2724,7 +2724,7 @@ namespace Samples
 
   <rule key="TypesThatOwnNativeResourcesShouldBeDisposable">
     <configKey>CA1049</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1049: Types that own native resources should be disposable]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -2835,7 +2835,7 @@ namespace Samples
 
   <rule key="StaticHolderTypesShouldBeSealed">
     <configKey>CA1052</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1052: Static holder types should be sealed]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -3430,7 +3430,7 @@ public class MyReadOnlyCollection : ReadOnlyCollection&lt;T&gt;
 
   <rule key="MovePInvokesToNativeMethodsClass">
     <configKey>CA1060</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1060: Move P/Invokes to NativeMethods class]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -3627,7 +3627,7 @@ internal static class UnsafeNativeMethods
 
   <rule key="DoNotHideBaseClassMethods">
     <configKey>CA1061</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1061: Do not hide base class methods]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -3763,7 +3763,7 @@ internal static class UnsafeNativeMethods
 
   <rule key="ExceptionsShouldBePublic">
     <configKey>CA1064</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1064: Exceptions should be public]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -4317,7 +4317,7 @@ internal static class UnsafeNativeMethods
 
   <rule key="PInvokeEntryPointsShouldExist">
     <configKey>CA1400</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1400: P/Invoke entry points should exist]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -4343,7 +4343,7 @@ internal static class UnsafeNativeMethods
 
   <rule key="PInvokesShouldNotBeVisible">
     <configKey>CA1401</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1401: P/Invokes should not be visible]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -4369,7 +4369,7 @@ internal static class UnsafeNativeMethods
 
   <rule key="AvoidOverloadsInComVisibleInterfaces">
     <configKey>CA1402</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1402: Avoid overloads in COM visible interfaces]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -4608,7 +4608,7 @@ Visual Basic 6 COM clients cannot implement interface methods by using an unders
 
   <rule key="AvoidInt64ArgumentsForVB6Clients">
     <configKey>CA1406</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1406: Avoid Int64 arguments for Visual Basic 6 clients]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -4653,7 +4653,7 @@ Visual Basic 6 COM clients cannot implement interface methods by using an unders
 
   <rule key="AvoidStaticMembersInComVisibleTypes">
     <configKey>CA1407</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1407: Avoid static members in COM visible types]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -4871,7 +4871,7 @@ namespace Samples
 
   <rule key="DoNotUseAutoDualClassInterfaceType">
     <configKey>CA1408</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1408: Do not use AutoDual ClassInterfaceType]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -4947,7 +4947,7 @@ namespace Samples
 
   <rule key="ComRegistrationMethodsShouldBeMatched">
     <configKey>CA1410</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1410: COM registration methods should be matched]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -4981,7 +4981,7 @@ namespace Samples
 
   <rule key="ComRegistrationMethodsShouldNotBeVisible">
     <configKey>CA1411</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1411: COM registration methods should not be visible]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5052,7 +5052,7 @@ namespace Samples
 
   <rule key="AvoidNonpublicFieldsInComVisibleValueTypes">
     <configKey>CA1413</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1413: Avoid non-public fields in COM visible value types]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5092,7 +5092,7 @@ namespace Samples
 
   <rule key="MarkBooleanPInvokeArgumentsWithMarshalAs">
     <configKey>CA1414</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1414: Mark boolean P/Invoke arguments with MarshalAs]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5132,7 +5132,7 @@ namespace Samples
 
   <rule key="DeclarePInvokesCorrectly">
     <configKey>CA1415</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1415: Declare P/Invokes correctly]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5184,7 +5184,7 @@ namespace Samples
 
   <rule key="AvoidExcessiveInheritance">
     <configKey>CA1501</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1501: Avoid excessive inheritance]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5210,7 +5210,7 @@ namespace Samples
 
   <rule key="AvoidExcessiveComplexity">
     <configKey>CA1502</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1502: Avoid excessive complexity]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5262,7 +5262,7 @@ namespace Samples
 
   <rule key="ReviewMisleadingFieldNames">
     <configKey>CA1504</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1504: Review misleading field names]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5288,7 +5288,7 @@ namespace Samples
 
   <rule key="AvoidUnmantainableCode">
     <configKey>CA1505</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1505: Avoid unmaintainable code]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5315,7 +5315,7 @@ namespace Samples
 
   <rule key="AvoidExcessiveClassCoupling">
     <configKey>CA1506</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1506: Avoid excessive class coupling]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5553,7 +5553,7 @@ namespace Samples
 
   <rule key="ResourceStringsShouldBeSpelledCorrectly">
     <configKey>CA1703</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1703: Resource strings should be spelled correctly]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -5598,7 +5598,7 @@ namespace Samples
 
   <rule key="IdentifiersShouldBeSpelledCorrectly">
     <configKey>CA1704</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1704: Identifiers should be spelled correctly]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -6172,7 +6172,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="IdentifiersShouldNotHaveIncorrectSuffix">
     <configKey>CA1711</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1711: Identifiers should not have incorrect suffix]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7235,7 +7235,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="DoNotCastUnnecessarily">
     <configKey>CA1800</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1800: Do not cast unnecessarily]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7262,7 +7262,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="ReviewUnusedParameters">
     <configKey>CA1801</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1801: Review unused parameters]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7327,7 +7327,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="UseLiteralsWhereAppropriate">
     <configKey>CA1802</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1802: Use Literals Where Appropriate]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7355,7 +7355,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="RemoveUnusedLocals">
     <configKey>CA1804</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1804: Remove unused locals]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7404,7 +7404,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="DoNotIgnoreMethodResults">
     <configKey>CA1806</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1806: Do not ignore method results]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7443,7 +7443,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="AvoidExcessiveLocals">
     <configKey>CA1809</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1809: Avoid excessive locals]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7477,7 +7477,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="InitializeReferenceTypeStaticFieldsInline">
     <configKey>CA1810</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1810: Initialize reference type static fields inline]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7521,7 +7521,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="AvoidUncalledPrivateCode">
     <configKey>CA1811</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1811: Avoid uncalled private code]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7582,7 +7582,7 @@ A <code>DataSet</code> object consists of a collection of <code>DataTable</code>
 
   <rule key="AvoidUninstantiatedInternalClasses">
     <configKey>CA1812</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1812: Avoid uninstantiated internal classes]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7700,7 +7700,7 @@ mc.Create();
 
   <rule key="AvoidUnsealedAttributes">
     <configKey>CA1813</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1813: Avoid unsealed attributes]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7739,7 +7739,7 @@ mc.Create();
 
   <rule key="PreferJaggedArraysOverMultidimensional">
     <configKey>CA1814</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1814: Prefer jagged arrays over multidimensional]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7765,7 +7765,7 @@ mc.Create();
 
   <rule key="OverrideEqualsAndOperatorEqualsOnValueTypes">
     <configKey>CA1815</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1815: Override equals and operator equals on value types]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7945,7 +7945,7 @@ namespace Samples
 
   <rule key="CallGCSuppressFinalizeCorrectly">
     <configKey>CA1816</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA1816: Call GC.SuppressFinalize correctly]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -7999,7 +7999,7 @@ namespace Samples
 
   <rule key="PropertiesShouldNotReturnArrays">
     <configKey>CA1819</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1819: Properties should not return arrays]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8266,7 +8266,7 @@ namespace PerformanceLibrary
 
   <rule key="TestForEmptyStringsUsingStringLength">
     <configKey>CA1820</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1820: Test for empty strings using string length]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8293,7 +8293,7 @@ namespace PerformanceLibrary
 
   <rule key="RemoveEmptyFinalizers">
     <configKey>CA1821</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1821: Remove empty finalizers]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8319,7 +8319,7 @@ namespace PerformanceLibrary
 
   <rule key="MarkMembersAsStatic">
     <configKey>CA1822</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1822: Mark members as static]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8363,7 +8363,7 @@ namespace PerformanceLibrary
 
   <rule key="AvoidUnusedPrivateFields">
     <configKey>CA1823</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1823: Avoid unused private fields]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8412,7 +8412,7 @@ namespace PerformanceLibrary
 
   <rule key="MarkAssembliesWithNeutralResourcesLanguage">
     <configKey>CA1824</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA1824: Mark assemblies with NeutralResourcesLanguageAttribute]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8458,7 +8458,7 @@ namespace PerformanceLibrary
 
   <rule key="ValueTypeFieldsShouldBePortable">
     <configKey>CA1900</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA1900: Value type fields should be portable]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8784,7 +8784,7 @@ causes CA2000 to occur because a failure in the construction of the StreamReader
 
   <rule key="DoNotLockOnObjectsWithWeakIdentity">
     <configKey>CA2002</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2002: Do not lock on objects with weak identity]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8902,7 +8902,7 @@ causes CA2000 to occur because a failure in the construction of the StreamReader
 
   <rule key="RemoveCallsToGCKeepAlive">
     <configKey>CA2004</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2004: Remove calls to GC.KeepAlive]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -8928,7 +8928,7 @@ causes CA2000 to occur because a failure in the construction of the StreamReader
 
   <rule key="UseSafeHandleToEncapsulateNativeResources">
     <configKey>CA2006</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2006: Use SafeHandle to encapsulate native resources]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9139,7 +9139,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="ReviewImperativeSecurity">
     <configKey>CA2103</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2103: Review imperative security]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9194,7 +9194,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="ArrayFieldsShouldNotBeReadOnly">
     <configKey>CA2105</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2105: Array fields should not be read only]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9230,7 +9230,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="SecureAsserts">
     <configKey>CA2106</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2106: Secure asserts]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9256,7 +9256,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="ReviewDenyAndPermitOnlyUsage">
     <configKey>CA2107</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2107: Review deny and permit only usage]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9330,7 +9330,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="ReviewVisibleEventHandlers">
     <configKey>CA2109</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2109: Review visible event handlers]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9377,7 +9377,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="PointersShouldNotBeVisible">
     <configKey>CA2111</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2111: Pointers should not be visible]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9420,7 +9420,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="SecuredTypesShouldNotExposeFields">
     <configKey>CA2112</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2112: Secured types should not expose fields]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9454,7 +9454,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="MethodSecurityShouldBeASupersetOfType">
     <configKey>CA2114</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2114: Method security should be a superset of type]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9480,7 +9480,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="CallGCKeepAliveWhenUsingNativeResources">
     <configKey>CA2115</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2115: Call GC.KeepAlive when using native resources]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9516,7 +9516,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="AptcaMethodsShouldOnlyCallAptcaMethods">
     <configKey>CA2116</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2116: APTCA methods should only call APTCA methods]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9566,7 +9566,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="AptcaTypesShouldOnlyExtendAptcaBaseTypes">
     <configKey>CA2117</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2117: APTCA types should only extend APTCA base types]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9619,7 +9619,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="ReviewSuppressUnmanagedCodeSecurityUsage">
     <configKey>CA2118</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9705,7 +9705,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="SecureSerializationConstructors">
     <configKey>CA2120</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2120: Secure serialization constructors]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9780,7 +9780,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="DoNotIndirectlyExposeMethodsWithLinkDemands">
     <configKey>CA2122</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2122: Do not indirectly expose methods with link demands]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9806,7 +9806,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="OverrideLinkDemandsShouldBeIdenticalToBase">
     <configKey>CA2123</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2123: Override link demands should be identical to base]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9881,7 +9881,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="TypeLinkDemandsRequireInheritanceDemands">
     <configKey>CA2126</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2126: Type link demands require inheritance demands]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9930,7 +9930,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="ConstantsShouldBeTransparent">
     <configKey>CA2130</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2130: Security critical constants should be transparent]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9956,7 +9956,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="CriticalTypesMustNotParticipateInTypeEquivalence">
     <configKey>CA2131</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2131: Security critical types may not participate in type equivalence]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -9982,7 +9982,7 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 
   <rule key="DefaultConstructorsMustHaveConsistentTransparency">
     <configKey>CA2132</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2132: Default constructors must be at least as critical as base type default constructors]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10067,7 +10067,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="DelegatesMustBindWithConsistentTransparency">
     <configKey>CA2133</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2133: Delegates must bind to methods with consistent transparency]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10139,7 +10139,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="MethodsMustOverrideWithConsistentTransparency">
     <configKey>CA2134</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2134: Methods must keep consistent transparency when overriding base methods]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10244,7 +10244,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemands">
     <configKey>CA2135</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2135: Level 2 assemblies should not contain LinkDemands]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10270,7 +10270,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="TransparencyAnnotationsShouldNotConflict">
     <configKey>CA2136</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2136: Members should not have conflicting transparency annotations]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10376,7 +10376,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="TransparentMethodsMustNotReferenceCriticalCode">
     <configKey>CA2140</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2140: Transparent code must not reference security critical items]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10464,7 +10464,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="TransparentMethodsShouldNotBeProtectedWithLinkDemands">
     <configKey>CA2142</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2142: Transparent code should not be protected with LinkDemands]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10490,7 +10490,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="TransparentMethodsShouldNotDemand">
     <configKey>CA2143</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2143: Transparent methods should not use security demands]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10516,7 +10516,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="TransparentMethodsShouldNotLoadAssembliesFromByteArrays">
     <configKey>CA2144</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2144: Transparent code should not load assemblies from byte arrays]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10564,7 +10564,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="TransparentMethodsShouldNotUseSuppressUnmanagedCodeSecurity">
     <configKey>CA2145</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2145: Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10625,7 +10625,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="TypesMustBeAtLeastAsCriticalAsBaseTypes">
     <configKey>CA2146</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2146: Types must be at least as critical as their base types and interfaces]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10651,7 +10651,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="SecurityTransparentCodeShouldNotAssert">
     <configKey>CA2147</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2147: Transparent methods may not use security asserts]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -10706,7 +10706,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="CA2151">
     <configKey>CA2151</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2151: Fields with critical types should be security critical]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -11195,7 +11195,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="InitializeValueTypeStaticFieldsInline">
     <configKey>CA2207</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2207: Initialize value type static fields inline]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -11230,7 +11230,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="InstantiateArgumentExceptionsCorrectly">
     <configKey>CA2208</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2208: Instantiate argument exceptions correctly]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -11297,7 +11297,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="AssembliesShouldHaveValidStrongNames">
     <configKey>CA2210</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2210: Assemblies should have valid strong names]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -11404,7 +11404,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="NonConstantFieldsShouldNotBeVisible">
     <configKey>CA2211</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2211: Non-constant fields should not be visible]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -11430,7 +11430,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="DoNotMarkServicedComponentsWithWebMethod">
     <configKey>CA2212</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2212: Do not mark serviced components with WebMethod]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -11459,7 +11459,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="DisposableFieldsShouldBeDisposed">
     <configKey>CA2213</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2213: Disposable fields should be disposed]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -11485,7 +11485,7 @@ namespace TransparencyWarningsDemo
 
   <rule key="DoNotCallOverridableMethodsInConstructors">
     <configKey>CA2214</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2214: Do not call overridable methods in constructors]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -12092,7 +12092,7 @@ namespace Samples
 
   <rule key="FinalizersShouldCallBaseClassFinalizer">
     <configKey>CA2220</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2220: Finalizers should call base class finalizer]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -12118,7 +12118,7 @@ namespace Samples
 
   <rule key="FinalizersShouldBeProtected">
     <configKey>CA2221</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2221: Finalizers should be protected]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -13059,7 +13059,7 @@ namespace Samples
 
   <rule key="OperatorsShouldHaveSymmetricalOverloads">
     <configKey>CA2226</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2226: Operators should have symmetrical overloads]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -13114,7 +13114,7 @@ namespace Samples
 
   <rule key="CollectionPropertiesShouldBeReadOnly">
     <configKey>CA2227</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2227: Collection properties should be read only]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -13247,7 +13247,7 @@ namespace Samples
 
   <rule key="OverloadOperatorEqualsOnOverridingValueTypeEquals">
     <configKey>CA2231</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2231: Overload operator equals on overriding ValueType.Equals]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -13394,7 +13394,7 @@ return left.Equals(right);
 
   <rule key="OperationsShouldNotOverflow">
     <configKey>CA2233</configKey>
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <name><![CDATA[CA2233: Operations should not overflow]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -13624,7 +13624,7 @@ namespace Samples
 
   <rule key="PassSystemUriObjectsInsteadOfStrings">
     <configKey>CA2234</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2234: Pass System.Uri objects instead of strings]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -13809,7 +13809,7 @@ namespace Samples
 
   <rule key="MarkISerializableTypesWithSerializable">
     <configKey>CA2237</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2237: Mark ISerializable types with SerializableAttribute]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -13968,7 +13968,7 @@ namespace Samples
 
   <rule key="ProvideDeserializationMethodsForOptionalFields">
     <configKey>CA2239</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2239: Provide deserialization methods for optional fields]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -14105,7 +14105,7 @@ namespace Samples
 
   <rule key="ProvideCorrectArgumentsToFormattingMethods">
     <configKey>CA2241</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2241: Provide correct arguments to formatting methods]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -14131,7 +14131,7 @@ namespace Samples
 
   <rule key="TestForNaNCorrectly">
     <configKey>CA2242</configKey>
-    <priority>MAJOR</priority>
+    <priority>CRITICAL</priority>
     <name><![CDATA[CA2242: Test for NaN correctly]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -14160,7 +14160,7 @@ namespace Samples
 
   <rule key="AttributeStringLiteralsShouldParseCorrectly">
     <configKey>CA2243</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA2243: Attribute string literals should parse correctly]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
@@ -14188,7 +14188,7 @@ namespace Samples
 
   <rule key="PInvokesShouldNotBeSafeCriticalFxCopRule">
     <configKey>CA5122</configKey>
-    <priority>MAJOR</priority>
+    <priority>INFO</priority>
     <name><![CDATA[CA5122: P/Invoke declarations should not be safe critical]]></name>
     <description><![CDATA[
 <h2>Cause</h2>
