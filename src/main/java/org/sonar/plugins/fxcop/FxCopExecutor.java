@@ -58,11 +58,10 @@ public class FxCopExecutor {
       command,
       TimeUnit.MINUTES.toMillis(timeout));
 
-    LOG.info("FxCopCmd.exe ended with the exit code: " + exitCode);
-
-    Preconditions.checkState((exitCode & 1) == 0,
-      "The execution of \"" + executable + "\" failed and returned " + exitCode
-        + " as exit code. See http://msdn.microsoft.com/en-us/library/bb429400(v=vs.80).aspx for details.");
+    if (exitCode == 0)
+      LOG.info("FxCopCmd.exe ended with the exit code: " + exitCode);
+    else
+      LOG.warn("FxCopCmd.exe ended with the exit code: " + exitCode);
   }
 
   /**
